@@ -13,6 +13,7 @@ public class VerificationPage {
 
 
     public VerificationPage() {
+        codeField.shouldBe(Condition.visible);
     }
 
     public DashboardPage validVerify(DataHelper.VerificationCode verificationCode) {
